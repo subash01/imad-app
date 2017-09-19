@@ -1,7 +1,11 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-
+var pool = require('pg').Pool
+var config = {
+    user='subashr9803',
+    database=''
+}
 var app = express();
 app.use(morgan('combined'));
 
