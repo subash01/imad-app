@@ -5,9 +5,9 @@ var pool = require('pg').Pool
 var config = {
     user:'subashr9803',
     database:'subashr9803',
-    host:
-    port:
-    password:
+    host: 'subashr9803@ssh.imad.hasura-app.io'
+    port: '5432'
+    password: DB_PASSWORD
 }
 var app = express();
 app.use(morgan('combined'));
