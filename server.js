@@ -3,8 +3,11 @@ var morgan = require('morgan');
 var path = require('path');
 var pool = require('pg').Pool
 var config = {
-    user='subashr9803',
-    database=''
+    user:'subashr9803',
+    database:'subashr9803',
+    host:
+    port:
+    password:
 }
 var app = express();
 app.use(morgan('combined'));
